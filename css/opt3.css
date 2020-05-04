@@ -1,0 +1,63 @@
+:root {
+	--main-color: white;
+	--card-background: rgb(5, 4, 66);
+	--radius: 50px;
+	font-size: 16px;
+}
+
+.card-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: var(--main-color);
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: var(--card-background);
+	padding: 50px;
+	border-top-left-radius: var(--radius);
+	border-bottom-right-radius: var(--radius);
+}
+
+.header {
+	text-align: left;
+}
+
+.header .name {
+	font-size: 5rem;
+	font-weight: bolder;
+}
+
+.header .subtitle {
+	font-size: 3rem;
+	font-weight: 100;
+}
+
+.contact {
+	text-align: right;
+	width: 100%;
+	font-size: 1.5rem;
+}
+
+.socials {
+	display: flex;
+	width: 100%;
+	margin-top: 50px;
+	font-size: 1.5rem;
+	font-weight: bold;
+	flex-direction: row;
+	color: var(--main-color);
+	justify-content: space-between;
+	border-top: 1px solid white;
+}
+
+.btn {
+	cursor: pointer;
+}
